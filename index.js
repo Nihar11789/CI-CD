@@ -1,1 +1,3 @@
-console.log("I am a hero in my life");
+const shortid = require('shortid');
+ 
+console.log(shortid.generate());
